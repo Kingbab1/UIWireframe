@@ -1,0 +1,83 @@
+import React from "react";
+import { Row, Col, Modal, Button, Form } from "react-bootstrap";
+import GarageDoor from "../Devices/Garage";
+
+export function NewModal(props, state) {
+  const [show, setShow] = React.useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
+  const populateArray = () => {
+    let d = props.data.Modal.Unit;
+    let t = [];
+    //console.log(props)
+    for(let i = 0; i < d.length; i++)
+    {
+        t.push(
+          <Row className="mt-3 mb-2 ml-4">
+          <Form>
+            <GarageDoor subdata={props.data.Modal.Unit[i]} changeRootdata={props.changeRootdata} RootData={props.RootData} target={props.target}></GarageDoor>
+            </Form>
+          </Row>
+        )
+    }
+
+    return t;
+    
+  };
+
+  return (
+    <>
+      <Button
+        className="mt-5"
+        as="pill"
+        variant="outline-primary"
+        size="lg"
+        onClick={handleShow}
+        block
+        >
+        {props.data.Name}
+      </Button>
+
+      <Modal show={show} onHide={handleClose} animation>
+        <Modal.Header closeButton>
+          <Modal.Title>Add New Device</Modal.Title>
+        </Modal.Header>
+       <Form>
+       <Form.Row>
+    <Form.Label column lg={2} className="ml-3 ">
+      Name
+    </Form.Label>
+    <Col>
+      <Form.Control type="text" placeholder="Device Name" className="mr-3"/>
+    </Col>
+  </Form.Row>
+  <Form.Control
+    as="select"
+    className="my-1 mr-sm-2 mb-xl-4"
+    id="inlineFormCustomSelectPref"
+    custom
+  >
+    <option value="0">Choose...</option>
+    <option value="1">Garage Door</option>
+    <option value="2">TV</option>
+    <option value="3">Lights</option>
+    <option value="4">Music</option>
+    <option value="5">plugs</option>
+  </Form.Control>
+  
+
+       </Form>
+
+        <Modal.Footer>
+
+          <Button variant="danger" onClick={handleClose}>
+            Cancel
+          </Button>
+          <Button pill classname="mr-2 ml-2" variant="success" onClick={handleClose}>Add</Button>{' '}
+        </Modal.Footer>
+      </Modal>
+    </>
+  );
+}

@@ -1,0 +1,23 @@
+[
+    {
+        "ID": 0,
+        "Name": "Living Room",
+        "NumDevices": 4,
+        "Devices": ["TV", "Lights", "Speakers", "Blinds"],
+        "Image": "GiLightBulb"
+    },
+    {
+        "ID": 1,
+        "Name": "Bedroom",
+        "NumDevices": 2,
+        "Devices": ["TV", "Speakers"],
+        "Image": "GiLightBulb" 
+    },
+    {
+        "ID": 3,
+        "Name": "Kitchen",
+        "NumDevices": 2,
+        "Devices": ["Refrigerator", "Lights"],
+        "Image": "GiLightBulb" 
+    }
+]

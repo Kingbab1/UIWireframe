@@ -1,0 +1,31 @@
+[
+    {
+        "ID": 0,
+        "Name": "Locks"
+    },
+    {
+        "ID": 1,
+        "Name": "Garage"
+    },
+    {
+        "ID": 2,
+        "Name": "TV"
+    },
+    {
+        "ID": 3,
+        "Name": "Lights"
+    },
+    {
+        "ID": 4,
+        "Name": "Plugs"
+    },
+    {
+        "ID": 5,
+        "Name": "Temperature"
+    },
+    {
+        "ID": 6,
+        "Name": "Security Cameras"
+    }
+
+]

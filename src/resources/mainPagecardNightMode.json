@@ -1,0 +1,223 @@
+[
+    {
+        "ID": 0,
+        "Name": "Garage",
+        "Image": "BsFillHouseFill",
+        "Modal": {
+            "DeviceName": "GarageDoor",
+            "Modaltype": "HomeModal",
+            "Unit": [
+                {
+                    "id": 0,
+                    "Name": "Main Garage",
+                    "Status": "closed"
+                    
+                },
+                {
+                    "id": 1,
+                    "Name": "Second Garage",
+                    "Status": "closed"
+
+                },
+                {
+                    "id": 2,
+                    "Name": "Third Garage",
+                    "Status": "closed"
+
+                }
+
+            ]
+        }
+
+    },
+    {
+        "ID": 1,
+        "Name": "TV",
+        "Image": "BsFillDisplayFill",
+        "Modal": {
+            "DeviceName": "TV",
+            "Modaltype": "TVModal",
+            "Unit": [
+                {
+                    "id": 0,
+                    "Name": "TV-1",
+                    "Status": "Off",
+                    "Params": [
+                        {
+                            "Channel" : 0
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "Name": "TV-2",
+                    "Status": "Off",
+                    "Params": [
+                        {
+                            "Channel" : 0
+                        }
+                    ]
+
+                }
+
+            ]
+        }
+
+    },
+    {
+        "ID": 2,
+        "Name": "Lights",
+        "Image": "GiLightBulb",
+        "Modal": {
+            "DeviceName": "GarageDoor",
+            "Modaltype": "LightModal",
+            "Unit": [
+                {
+                    "id": 0,
+                    "Name": "Kitchen Light",
+                    "Status": "closed"
+
+                },
+                {
+                    "id": 1,
+                    "Name": "Bedroom light",
+                    "Status": "closed"
+
+                }
+
+            ]
+        }
+
+    },
+    {
+        "ID": 3,
+        "Name": "Music",
+        "Image": "BsMusicNoteBeamed",
+        "Modal": {
+            "DeviceName": "GarageDoor",
+            "Modaltype": "MusicModal",
+            "Unit": [
+                {
+                    "id": 0,
+                    "Name": "Amazon Echo",
+                    "Status": "Off"
+
+                },
+                {
+                    "id": 1,
+                    "Name": "Google Hub",
+                    "Status": "Off"
+
+                }
+
+            ]
+        }
+
+    },
+    {
+        "ID": 4,
+        "Name": "Thermometer",
+        "Image": "WiThermometer",
+        "Modal": {
+            "DeviceName": "GarageDoor",
+            "Modaltype": "ThermModal",
+            "Unit": [
+                {
+                    "id": 0,
+                    "Name": "Thermometer 1",
+                    "Status": "closed",
+                    "Params": [
+                        {
+                            "Temp" : 75,
+                            "Type" : "F"
+                        }
+                    ]
+
+                }
+
+            ]
+        }
+
+    },
+    {
+        "ID": 5,
+        "Name": "Plugs",
+        "Image": "BsPlug",
+        "Modal": {
+            "DeviceName": "GarageDoor",
+            "Modaltype": "PlugModal",
+            "Unit": [
+                {
+                    "id": 0,
+                    "Name": "Living",
+                    "Status": "Off"
+
+                },
+                {
+                    "id": 1,
+                    "Name": "Garage",
+                    "Status": "Off"
+
+                },
+                {
+                    "id": 2,
+                    "Name": "Kitchen",
+                    "Status": "Off"
+
+                },
+                {
+                    "id": 3,
+                    "Name": "Bedroom",
+                    "Status": "Off"
+
+                },
+                {
+                    "id": 4,
+                    "Name": "Washroom",
+                    "Status": "Off"
+
+                },
+                {
+                    "id": 5,
+                    "Name": "Bathroom",
+                    "Status": "Off"
+
+                },
+                {
+                    "id": 6,
+                    "Name": "Guest Bedroom",
+                    "Status": "Off"
+
+                }
+
+            ]
+        }
+
+    },
+    {
+        "ID": 5,
+        "Name": "Add New Device +",
+        "Image": "BsFillPlusCircleFill",
+        "Modal": {
+            "DeviceName": "GarageDoor",
+            "Modaltype": "NewModal",
+            "Unit": [
+                {
+                    "id": 0,
+                    "Name": "Main Garage",
+                    "Status": "closed"
+
+                },
+                {
+                    "id": 1,
+                    "Name": "Second Garage",
+                    "Status": "closed"
+
+                }
+
+            ]
+        }
+
+    }
+    
+]
